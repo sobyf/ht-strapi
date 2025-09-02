@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_purchase_processes",
+  "info": {
+    "displayName": "purchaseProcess",
+    "icon": "shoppingCart"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "purchase": {
+      "type": "component",
+      "component": "home.purchase",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

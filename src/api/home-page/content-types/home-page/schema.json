@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Home",
+      "required": true,
+      "unique": true
+    },
+    "heroBanner": {
+      "type": "component",
+      "component": "home.hero-banner",
+      "repeatable": false
+    },
+    "coreServices": {
+      "type": "component",
+      "component": "home.core-services",
+      "repeatable": false
+    },
+    "purchaseProcess": {
+      "type": "component",
+      "component": "home.purchase-process",
+      "repeatable": false
+    },
+    "legalAssurance": {
+      "type": "component",
+      "component": "home.legal-assurance",
+      "repeatable": false
+    },
+    "FAQs": {
+      "type": "component",
+      "component": "home.fa-qs",
+      "repeatable": false
+    }
+  }
+}

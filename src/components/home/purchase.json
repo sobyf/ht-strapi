@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_purchases",
+  "info": {
+    "displayName": "purchase",
+    "icon": "shoppingCart"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "step": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

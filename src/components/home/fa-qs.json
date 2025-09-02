@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_fa_qs",
+  "info": {
+    "displayName": "FAQs",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "FAQ": {
+      "type": "component",
+      "component": "home.faq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

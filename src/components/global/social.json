@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_socials",
+  "info": {
+    "displayName": "social",
+    "icon": "twitter"
+  },
+  "options": {},
+  "attributes": {
+    "lable": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

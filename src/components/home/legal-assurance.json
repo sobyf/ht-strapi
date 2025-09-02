@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_legal_assurances",
+  "info": {
+    "displayName": "legalAssurance",
+    "icon": "shield"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "legal": {
+      "type": "component",
+      "component": "home.legal",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

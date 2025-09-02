@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_services",
+  "info": {
+    "displayName": "service",
+    "icon": "handHeart"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}
