@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_post_text_blocks",
+  "info": {
+    "displayName": "block"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": [
+        "h2",
+        "h3",
+        "h4"
+      ]
+    },
+    "body": {
+      "type": "text"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
