@@ -45,15 +45,12 @@ export default [
     name: "strapi::cors",
     config: {
       enabled: true,
-      origin: [
-        "http://localhost:3000",
-        "https://domain.com",
-        "https://www.domain.com",
-        "https://strapi.domain.com",
-      ],
+      origin: ["*"], // allow all origins (safe for testing only)
+      credentials: true, // allow cookies / auth headers to be sent
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
       keepHeaderOnError: true,
+      maxAge: 31536000, // 1 year (browser can cache preflight requests)
     },
   },
   "strapi::poweredBy",
